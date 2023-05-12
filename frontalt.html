@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.navbar {
+  /*overflow: hidden;*/
+ 
+  /*position: fixed;*/
+  top: 10;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #40b1f7;
+  color: rgb(0, 0, 0);
+}
+
+.navbar a.active {
+  background-color: #40b1f7;
+  color: white;
+}
+
+
+.top-section{
+padding-top: 200px;
+  background-image:linear-gradient(to right, #8ccbe3, #40b1f7);
+  height: calc(70vh - 50px); 
+  padding-left: 270px;
+  border:none;
+}
+
+
+.h1{
+    
+    justify-content: center;
+    }
+.h2{
+    font-weight: 200;
+}
+.bottom-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section {
+    
+  width: 27%;
+  height: 400px;
+  /*background-color: whitesmoke;*/
+  margin: 25px;
+  
+}
+.buttonsection {
+    background-color:#40b1f7 ;
+    color: white;
+    border-radius: 5px;
+    border-color:#8ccbe3 ;
+    padding: 12px;
+    display: block;
+    margin: 0 auto;
+    
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .section1content,.section1text1{
+    text-align: center;
+  }
+  
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a class="active" href="#">Home</a>
+  <a href="loginpg.html">Login</a>
+  <a href="SignUpFinal.html">Sign Up</a>
+  <a href="#">Contact Us</a>
+
+</div>
+
+<div class="top-section">
+    
+    <h1>
+        <img src="logo-no-background.png" alt="SmartHire Logo" width="900px">
+    </h1>
+</div>
+<div class="bottom-section">
+    <div class="section">
+        <img src="write.png" alt="write logo" width="40px">
+      <h2 class="section1text1">Complete your resume</h2>
+      <h3 class="section1content">Don't have a resume yet? You can fill in your details manually by clicking here</h3>
+      <button class="buttonsection">Get started</button>
+    </div>
+      <div class="section">
+        <img src="download.png" alt="download-logo" width="50px">
+        <h2 class="section1text1">Apply with extension</h2>
+      <h3 class="section1content">Apply for jobs seemlessly with our extension. Download for free!</h3>
+      <button class="buttonsection">Download</button>
+        
+      </div>
+      <div class="section">
+        <img src="track.png" alt="track-logo" width="50px">
+        <h2 class="section1text1">Track applications</h2>
+      <h3 class="section1content">View and track the status of your applications in with our extension.Never miss out on an interview call ever.</h3>
+      <button class="buttonsection">Track now</button>
+      </div>
+</div>
+<div class="footer">
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        
+
+
+
+    </div>
+</div>
+</body>
+</html>
